@@ -14,7 +14,7 @@
       "ssh_username": "ubuntu",
       "ami_name": "angieslist-mesos-{{isotime | clean_ami_name}}",
       "ami_description": "Ubuntu 14.04 LTS with Docker, Runit, and Mesos",
-      "ami_regions": ["us-east-1"],
+      "ami_regions": [],
       "ami_groups": "all",
       "tags": {
         "os:distribution": "Ubuntu",
