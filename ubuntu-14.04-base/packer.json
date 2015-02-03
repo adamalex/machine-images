@@ -7,13 +7,13 @@
   "builders": [
     {
       "type": "amazon-ebs",
-      "region": "us-west-2",
-      "source_ami": "ami-978dd9a7",
+      "region": "us-east-1",
+      "source_ami": "ami-9a562df2",
       "instance_type": "m3.medium",
       "ssh_username": "ubuntu",
-      "ami_name": "thefactory-ubuntu-14.04-base-{{isotime | clean_ami_name}}",
+      "ami_name": "angieslist-ubuntu-14.04-base-{{isotime | clean_ami_name}}",
       "ami_description": "Ubuntu 14.04 LTS with Docker and Runit",
-      "ami_regions": ["us-east-1", "us-west-1", "ap-southeast-1", "ap-southeast-2", "ap-northeast-1", "sa-east-1", "eu-west-1"],
+      "ami_regions": ["us-east-1"],
       "ami_groups": "all",
       "tags": {
         "os:distribution": "Ubuntu",
